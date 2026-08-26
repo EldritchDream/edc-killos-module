@@ -1,0 +1,7 @@
+2026/08/25-11:17:08.820 2aac Recovering log #32
+2026/08/25-11:17:08.830 2aac Delete type=0 #32
+2026/08/25-11:17:08.830 2aac Delete type=3 #30
+2026/08/25-11:18:51.085 7b74 Level-0 table #37: started
+2026/08/25-11:18:51.085 7b74 Level-0 table #37: 0 bytes OK
+2026/08/25-11:18:51.087 7b74 Delete type=0 #35
+2026/08/25-11:18:51.094 7b74 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

@@ -1,0 +1,96 @@
+{
+  "id": "edc-killos-module",
+  "title": "EDC - Killos Module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "description": "<p>Stuff for Killos</p>",
+  "flags": {
+    "canUpload": true
+  },
+  "action": "manageModule",
+   "authors": [
+    {
+      "name": "Shawn \"Eldritch Dream\" Pommier",
+      "email": "https://www.twitch.tv/an_eldritch_dream_games",
+      "url": "https://ko-fi.com/eldritchdream",
+      "discord": "https://www.patreon.com/c/EldritchDreamCreations"
+    }
+  ],
+  "manifest": "https://github.com/EldritchDream/edc-killos-module/releases/latest/download/module.json",
+  "download": "https://github.com/EldritchDream/edc-killos-module/releases/latest/download/edc-killos-module.zip",
+   "packs": [
+    {
+      "name": "killos-actors",
+      "label": "Killos Actors",
+      "path": "packs/killos-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "killos-items",
+      "label": "Killos Items",
+      "path": "packs/killos-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "killos-journal",
+      "label": "Killos Journal",
+      "path": "packs/killos-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+   "flags": {
+        "edc-killos-module": {
+            "pf2e-homebrew": {
+				"creatureTraits": {
+					"bloodbrood": {
+						"label": "Bloodbrood"
+					},
+					"snjódraugur": {
+						"label": "Snjódraugur"
+					},
+					"pit fiend": {
+						"label": "Pit Fiend"
+					},
+					"daemonette": {
+						"label": "Daemonette"
+					}
+				},
+				"featTraits": {
+					"bloodbrood": {
+						"label": "Bloodbrood"
+					},
+					"snjódraugur": {
+						"label": "Snjódraugur"
+					},
+					"pit fiend": {
+						"label": "Pit Fiend"
+					},
+					"daemonette": {
+						"label": "Daemonette"
+					}
+				}
+            }
+        }
+    }
+}
